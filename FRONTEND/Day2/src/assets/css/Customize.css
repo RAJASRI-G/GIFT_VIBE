@@ -1,0 +1,40 @@
+.error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+.details-container {
+    display: flex;
+  }
+  
+  .details-left {
+    flex: 1;
+  }
+  
+  .detail-row {
+    margin-bottom: 10px;
+  }
+  
+  .details-center {
+    flex: 2; /* Adjust the width as needed */
+  }
+  
+  .details-center img {
+    width: 100%; /* Ensure the image fills the entire width */
+    height: auto;
+    display: block;
+  }
+  
+  .details-right {
+    flex: 1;
+  }
+  .description {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

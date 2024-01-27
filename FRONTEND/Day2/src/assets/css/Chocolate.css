@@ -1,0 +1,15 @@
+.choco-title {
+    background-image:url("../images/ch6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0cqh;
+    text-align:center;
+    font-size:70px;
+    height:250px;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-6px;
+    opacity:0.9;
+    position:relative;
+    z-index:-1;
+}

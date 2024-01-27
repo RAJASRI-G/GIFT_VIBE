@@ -1,0 +1,70 @@
+/* PhotoGrid.css */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-left:0px;
+  margin-right:50px;
+  margin-top:40px;
+}
+.good img
+{
+  width:1519px;
+  height:250px;
+  margin-top:-9px;
+  position:relative;
+  margin-left:-8px;
+  /* background-color: rgba(0,0,0,0.5); */
+}
+.vibe
+{
+  float:right;
+  margin-top:-200px;
+  margin-right:700px;
+  color:rgb(6, 5, 6);
+  font-size:70px;
+
+}
+.photo-item {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(230, 214, 214, 0.9);
+}
+.photo-item:hover {
+  transform: scale(0.9); /* Bulge the image when grid item is hovered */
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 30px rgba(53, 50, 50, 0.9);
+}
+.photo-link {
+  display: block;
+  width: 100%;
+}
+
+.photo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height:70px;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 60px;
+  font-family:Colonna MT;
+  border-radius:10px;
+  text-align: center;
+  /* box-shadow: rgba(6, 230, 230, 0.35) 0px -50px 36px -28px inset; */
+}
+.photo-caption:hover{
+  height:80px;
+}
+
