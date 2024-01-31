@@ -1,0 +1,42 @@
+/* Theme.css */
+.updated-classname {
+    background-color: rgba(30, 24, 24, 0.25);
+    margin-top:-100px;
+    height:700px;
+    margin: 20px;
+}
+
+.updated-grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.updated-grid-item {
+    padding: 10px;
+    border: 1px solid #8b8585;
+}
+
+.updated-dis {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.updated-edit-link {
+    text-decoration: none;
+}
+
+.updated-edit-button,
+.updated-delete-button {
+    margin-right: 5px;
+}
+
+.updated-create-button {
+    margin-top: 20px;
+    margin-left:600px;
+    background-color: rgb(60, 199, 60);
+}
+.updated-create-button:hover {
+    background-color: rgb(42, 160, 42);
+    color:white;
+}

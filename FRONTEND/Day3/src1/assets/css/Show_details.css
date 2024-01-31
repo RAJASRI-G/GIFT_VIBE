@@ -1,0 +1,86 @@
+ .show-details-page {
+  text-align: center;
+  /* background-color: rgb(205, 218, 220); */
+  /* height:700px; */
+  background-image:url("../images/order.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:730px;
+  text-align:center;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.details-table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.details-table th,
+.details-table td {
+  padding: 20px;
+  border: 1px solid #c3b4b4;
+}
+
+.details-table th {
+  background-color: #f2f2f2; 
+}
+
+.details-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.details-table tbody td {
+  text-align: center;
+}
+.details-table tbody td:first-child {
+  background-color: #f2f2f2;
+  text-align: left; 
+}
+
+.details-table tbody td:last-child {
+  text-align: center;
+}
+
+
+.pay-button,
+.cancel-button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-button {
+  background-color: #6fce72;
+  color: white;
+  margin-left:-100px;
+  text-decoration: none;
+}
+
+.pay-button:hover {
+  background-color: #266a2a;
+}
+
+.cancel-button {
+  background-color: #de665e;
+  color: white;
+  margin-left:100px;
+  text-decoration: none;
+}
+
+.cancel-button:hover {
+  background-color: #a91919;
+}
+
+.buttons-container {
+  margin-top: 20px;
+  text-align: center;
+}

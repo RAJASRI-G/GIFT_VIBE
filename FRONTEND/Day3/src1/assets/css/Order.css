@@ -1,0 +1,29 @@
+.order-container {
+    margin-top: 20px;
+    width:1200px;
+    margin-left:200px;
+  }
+  .ord{
+    font-family: Algerian;
+  }
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th,
+  .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .order-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,107 @@
+.cart-container {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .cart-item {
+    width:1500px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(28, 21, 21, 0.9);
+  }
+  
+  .cart-item .cart-image {
+    flex: 0 0 300px; /* Set width of image container */
+    margin-right: 20px; /* Add some space between image and details */
+  }
+  
+  .cart-item .cart-description {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .cart-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+  }
+  
+  .cart-item div {
+    margin-bottom: 10px;
+  }
+  
+  .cart-item button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    margin-top:10px;
+    cursor: pointer;
+    border: none;
+    background-color: #d74949;
+    color: #fff;
+  }
+  
+  .cart-item button:hover {
+    background-color: #be1e1e;
+  }
+  
+  .cart-item button:last-child {
+    background-color: #4ac934;
+  }
+  
+  .cart-item button:last-child:hover {
+    background-color: #1d9c1a;
+  }
+ 
+
+
+/* .cart-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+    padding: 10px;
+    margin-left:200px;
+    margin-top:10px;
+    margin-right:30px;
+    position:fixed;
+    box-shadow: 0 4px 10px rgba(28, 21, 21, 0.9);
+  }
+  
+  .cart-item img {
+    width: 300px;
+    height: 200px;
+    padding-right: 70px;
+    border-radius:3px;
+  }
+  .cart-item div {
+    margin-bottom: 10px;
+  }
+  .line1
+  {
+    width:1000px;
+    margin-left:-500px;
+  }
+  .cart-item button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .cart-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-item button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .cart-item button:last-child:hover {
+    background-color: #bd2130;
+  }
+   */

@@ -1,0 +1,15 @@
+.crt
+{
+    background-color: rgb(83, 210, 83);
+    margin-left:700px;
+    margin-top:50px;
+}
+.crt:hover
+{
+    background-color: rgb(39, 157, 39);;
+}
+.adgif
+{
+    background-color: rgba(30, 24, 24, 0.25);
+    height:729px;
+}

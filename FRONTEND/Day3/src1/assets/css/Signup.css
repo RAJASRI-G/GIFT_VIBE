@@ -1,0 +1,73 @@
+.register-form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(93, 112, 167);
+    background-image:transparent;
+    background-color: rgba(56, 85, 159, 0.6);
+    margin-top: -620px;
+    margin-right:260px;
+    float:right;
+}
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#ccd8db;
+  }
+.login-link a {
+    color: rgb(32, 55, 230);
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    color: #053079; /* Adjust the color as needed */
+  }
+  h2{
+    text-align: center;
+    color: aliceblue;
+  }
+  .register-form label {
+    display: block;
+  text-align: center;
+    margin-bottom: 8px;
+    font-size:20px;
+    color:rgb(197, 217, 219);
+  }
+  .register-form input,
+  .register-form select {
+    width: 60%; /* Make inputs and selects full width */
+  padding: 8px;
+  margin-left:50px;
+  margin-bottom: 16px;
+  border: 1px solid #467d97;
+  border-radius: 3px;
+  box-sizing: border-box;
+  
+  }
+  
+  .regi{
+    background-color: #474c47;
+    color: rgb(244, 232, 232);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:75px;
+    margin-left:130px;
+    text-decoration: none;
+  }
+  
+  .regi:hover {
+    background-color: #0a0b0a;
+  }
+  
+
+
+
+
+

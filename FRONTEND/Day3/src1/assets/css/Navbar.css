@@ -1,0 +1,62 @@
+.content {
+    padding: 50px;
+  }
+.profile-image1{ 
+  border-radius: 50%;
+}
+.profile-image1 img {
+  width:210px;
+ height:90px;
+  border-radius: 200px;
+  margin-left:50px;
+  margin-top:-60px;
+  position:relative;
+}
+  .navbar {
+    background-color:rgba(0, 0, 0, 0.4);
+    background-image: url("../images/nav.gif");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    /* position:; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height:100px;
+    width:1547px;
+    border-radius:5px;
+    margin-left:-27px;
+    margin-top:-11px;
+    border-style: inset;
+    
+    /* box-shadow:rgba(0, 0, 0, 0.7); */
+    /* box-shadow: rgba(202, 209, 209, 0.35) 0px -50px 36px -28px inset; */
+  }
+  .nav-list {
+    list-style-type: none;
+    margin-left:10px;
+    font-family:Algerian;
+    font-size:30px;
+    margin-right:50px;
+    display: flex;
+    float:right;
+    margin-top:-30px;
+  }
+  
+  .nav-item {
+    /* margin-left:90px; */
+    display: flex;
+    padding:50px;
+    
+  }
+  
+  .nav-link {
+    color: rgb(172, 26, 26);
+    text-decoration: none;
+  }
+  .nav-link:hover
+  {
+     color:rgb(15, 16, 16);
+
+  }
+ 
+  

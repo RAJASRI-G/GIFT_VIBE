@@ -1,0 +1,40 @@
+.animated-tex {
+    font-size: 2em;
+    animation: fadeInUp 1s ease-in-out;
+    margin-left:250px;
+    color:rgb(6, 7, 7);
+    font-family:algerian;
+  }
+  
+  .animated-image {
+    /* display: inline-block; */
+    animation: fadeIn 1s ease-in-out; /* Define the image animation */
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .hom
+  {
+     /* background-image: url("register.jpg");
+     background-repeat: no-repeat;
+     background-size:cover; */
+     height:613.9px;
+  }
+  

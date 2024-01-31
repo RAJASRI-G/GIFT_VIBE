@@ -1,0 +1,127 @@
+/* Customize.css */
+
+/* Details container */
+.details-container {
+  background-color: rgba(30, 24, 24, 0.25);
+  height:729px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right:10px;
+  margin-left:-10px;
+}
+
+/* Left section containing images */
+.details-left {
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
+  /* border:2px solid black; */
+  height:500px;
+  margin-top:-80px;
+  padding-top:10px;
+  margin-left:200px;
+  padding:50px;
+}
+
+/* Individual image */
+.detail-row img {
+  width: 100%;
+  margin-top:-10px;
+  height: 510px;
+  box-shadow: 0 4px 30px rgba(53, 50, 50, 0.9);
+  border-radius:5px;
+}
+
+.prev
+{
+  margin-left:0px; 
+  margin-top:-300px;
+  border-radius:50%;
+  /* background-color: rgb(28, 110, 181); */
+  width:40px;
+  height:40px;
+  cursor:pointer;
+}
+
+.next
+{
+  cursor:pointer;
+  margin-left:540px; 
+  margin-top:-50px;
+  /* background-color: rgb(28, 110, 181); */
+  width:40px;
+  height:40px;
+  border-radius:50%;
+}
+.prev.transition,
+.next.transition {
+  transition: transform 0.3s ease; /* Apply transition only to the transform property */
+}
+
+/* Scale effect when hovering over .prev and .next elements */
+.prev:hover,
+.next:hover {
+  transform: scale(1.1);
+}
+.details-center{
+
+  text-align: center;
+  opacity:0.1px;
+}
+.details-center img.active {
+  opacity: 1;
+}
+/* Center section for main image */
+.details-center img{
+  opacity: 0.8; /* Initial opacity */
+  transition: opacity 0.3s ease;
+  border-radius:50%;
+  /* border:2px solid black; */
+  /* background-color: rgba(0,0,0,0.5); */
+  width: 110px;
+  height: 110px;
+  padding:10px;
+  box-shadow: rgba(30, 24, 24, 0.25) 0px 25px 50px -12px;
+ 
+ 
+  flex: 2; 
+}
+.details-center img:hover {
+  transform: scale(0.9); /* Bulge the image when grid item is hovered */
+  transition: transform 0.3s ease;
+  opacity: 1; 
+  box-shadow: 0 4px 30px rgba(53, 50, 50, 0.9);
+}
+/* Right section containing product details */
+.details-right {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Product description */
+.description1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Rating */
+.rating, .rate, .reviews, .time-left, .discount {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Add to cart button */
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}

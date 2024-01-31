@@ -1,0 +1,93 @@
+/* GiftPage.css */
+.gifthead
+{
+  /* background-color: rgb(205, 218, 220); */
+  background-image:url("../images/order.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:730px;
+  text-align:center;
+
+}
+.gift-page {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size:20px;
+    /* padding:50px; */
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family:Algerian;
+    color:#e7e3e3;
+  }
+  
+  .gift-form {
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .left-column {
+    grid-column: 1 / span 1;
+  }
+  
+  .right-column {
+    grid-column: 2 / span 1;
+    margin-left:30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styling for form elements */
+  
+  .form-label {
+    display: block;
+    /* font-weight: bold; */
+    margin-bottom: px;
+    color:rgb(177, 216, 219);
+    font-size:25px;
+    font-family:Algerian;
+  }
+  
+  .form-input,
+  .form-select {
+    width: 70%;
+    height:30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:15px;
+  }
+  
+  .form-button {
+    background-color: #cb47c7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:400px;
+}
+.order-link
+{
+    color:white;
+      text-decoration:none;
+
+  }
+  .form-button:hover {
+    background-color: #7f1065;
+  }
+  
+  

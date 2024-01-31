@@ -1,0 +1,83 @@
+/* Example import in your main CSS file */
+@import '@fortawesome/fontawesome-free/css/all.css';
+.sidebar1 {
+    width: 275px;
+    height: 100vh;
+    background-color:rgb(248, 242, 242);
+    position: fixed;
+    top:0px;
+    border-radius:4px ;
+    left: -300px;
+    font-size: 20px;
+    transition: left 0.3s ease;
+}
+.remain1{
+  float:left;
+  width:1520px;
+  height:800px;
+  background-color: rgba(0,0,0,0.7);
+  margin-top:-600px;
+  margin-left:240px;
+  /* border-radius:0px 200px; */
+}
+.sidebar1.open {
+    left: 0;
+}
+.sidebar1 ul {
+    list-style: none;
+    /* padding-right: 4px; */
+}
+.sidebar1 li {
+    padding-bottom: 40px;
+    padding-left: 4px;
+    /* padding-bottom:30px; */
+    
+    /* padding-top:10px; */
+    /* background-color: rgba(0,0,0,0.5); */
+  }
+  .sidebar1 li i {
+    float:left;
+    padding-right: 20px;
+    padding-left: 0px;
+    margin-left:-30px;
+    margin-top:10px;
+    font-size: 24px; /* Adjust the font size of the icon */
+  }
+  .sidebar1 i
+  {
+  color:rgb(9, 9, 9);
+
+}
+.sidebar1 li:hover {
+    /* background-color: black;  */
+    border-radius:10px;
+    width: auto;
+    /* background-color: rgb(98, 98, 5); */
+     /* background-color: rgba(54, 133, 223, 0.5); */
+     /* box-shadow: rgba(55, 207, 207, 0.921) 0px -50px 36px -28px inset; */
+  }
+  .sidebar1 a {
+    text-decoration: none;
+    color:#a3941b;
+    font-size:30px;
+    font-family:Colonna MT;
+  }
+  .sidebar1 a:hover{
+    color: #509618;
+    text-decoration: none;
+  }
+  .toggle-btn1 {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: -16px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align:center;
+    border-radius: 3px;
+    width:100px;
+    font-size:30px;
+    height:40px;
+    position:fixed;
+  }
