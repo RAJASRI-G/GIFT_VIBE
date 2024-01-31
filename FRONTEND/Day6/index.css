@@ -1,0 +1,20 @@
+#header
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+#siteinfo
+{
+  text-align:left;
+  padding:5px;
+}
+#siteinfo h1{
+  font-size:20px;
+  padding:0px;
+  line-height:0.5;
+}
+.navlink
+{
+  display:inline-block;
+  width:60px;
+}
